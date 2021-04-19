@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\Reports\rptEmpleados.rdlc" />
+    <Content Remove="wwwroot\Reports\rptEmpleadosDetalles.rdlc" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +19,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Update="ReportDataSet\dsEmpleadosDetalles.Designer.cs">
+      <DependentUpon>dsEmpleadosDetalles.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -26,10 +32,16 @@
       <LastGenOutput>dsEmpleados.Designer.cs</LastGenOutput>
       <Generator>MSDataSetGenerator</Generator>
     </None>
+    <None Update="ReportDataSet\dsEmpleadosDetalles.xsd">
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsEmpleadosDetalles.Designer.cs</LastGenOutput>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\Reports\rptEmpleados.rdlc" />
+    <None Include="wwwroot\Reports\rptEmpleadosDetalles.rdlc" />
   </ItemGroup>
 
 </Project>
