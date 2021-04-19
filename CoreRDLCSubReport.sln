@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRDLCSubReport.Web", "CoreRDLCSubReport.Web\CoreRDLCSubReport.Web.csproj", "{7D2AF433-732F-4A66-A8F2-0F2F040ACEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D2AF433-732F-4A66-A8F2-0F2F040ACEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2AF433-732F-4A66-A8F2-0F2F040ACEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2AF433-732F-4A66-A8F2-0F2F040ACEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2AF433-732F-4A66-A8F2-0F2F040ACEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {610BACFA-190E-4810-9932-3E711DA3C7BE}
+	EndGlobalSection
+EndGlobal
