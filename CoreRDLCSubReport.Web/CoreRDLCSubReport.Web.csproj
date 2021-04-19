@@ -4,4 +4,32 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\Reports\rptEmpleados.rdlc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReportViewerCore.NETCore" Version="15.1.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ReportDataSet\dsEmpleados.Designer.cs">
+      <DependentUpon>dsEmpleados.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReportDataSet\dsEmpleados.xsd">
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsEmpleados.Designer.cs</LastGenOutput>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Reports\rptEmpleados.rdlc" />
+  </ItemGroup>
+
 </Project>
